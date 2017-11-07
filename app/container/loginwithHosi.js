@@ -8,10 +8,17 @@ import {
 import LoginBg from './app/img/login-bg@0,33x.png';
 import Logo from './app/img/Logo@0,5x.png';
 import Eye from './app/img/eye@0,5x.png';
-import EyeInvisible from './app/img/eye@invisible.png';
 import { Hoshi } from 'react-native-textinput-effects';
 
 export default class App extends Component {
+
+  constructor(props){
+    super(props)
+
+    this.state = {
+      password: 'pwass'
+    }
+  }
 
 
   render() {
@@ -25,31 +32,29 @@ export default class App extends Component {
           </View>
           <View style={styles.formContainer}>
             <View style={styles.loginInput}>
-              <TextInput
-                autoCapitalize={'none'}
-                autoCorrect={false}
-                clearButtonMode={'while-editing'}
-                value={this.state.password}
-                secureTextEntry={this.state.passwordHidden}
-                placeholder={"Username"}
-                underlineColorAndroid={"transparent"}
+           
+            <View style={{flex:1}}>
+              <Hoshi
+                label={'Username'}
+                borderColor={'transparent'}
+                labelStyle={{fontSize : 16 , color : "gray"}}
+                inputStyle={{fontSize : 18 , color : "black"}}
               />
+              </View>
             </View>
             <View style={styles.loginInput}>
               <View style={{justifyContent:'center',alignItems:'center',flexDirection : "row"}}>
               <View style={{flex:1}}>
-                <TextInput
-                  autoCapitalize={'none'}
-                  autoCorrect={false}
-                  clearButtonMode={'while-editing'}
-                  secureTextEntry={true}
-                  placeholder={"Password(required)"}
-                  underlineColorAndroid={"transparent"}
+                <Hoshi
+                  label={'Password(required)'}
+                  borderColor={'red'}
+                  labelStyle={{fontSize : 16 , color : "gray"}}
+                  inputStyle={{fontSize : 18 , color : "black"}}
                 />
                 </View>
-                <Image source={EyeInvisible} style= {{alignItems:'center' , height : 100, width : 100}}/>
-
+                <Image source={Eye} style= {{alignItems:'center'}}/>
               </View>
+              
             </View>
 
              <TouchableHighlight underlayColor='#C0C0C0' 
@@ -86,6 +91,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     height: 50,
     borderBottomWidth: 1,
+    borderBottomColor : "#191970",
     backgroundColor:'transparent',
     paddingLeft:10,
   },
@@ -99,7 +105,7 @@ const styles = StyleSheet.create({
     height: null
   },
   ImageLogo: {
-    marginLeft : 140,
+    marginLeft : 110,
     marginTop : 30
   },
   button : {
