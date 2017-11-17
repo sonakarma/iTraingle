@@ -1,0 +1,40 @@
+{
+  "summary_info": [
+      {
+          "Vehicle_No.": "KA42G220",
+          "Driver_Name": "No Tracking Details Available for past 10days",
+          "Start_Time": "No data",
+          "Start_Loc": "No data",
+          "LastTrackedTime": "No Tracking Details Available for past 10days",
+          "LastKnownLocation": "No Tracking Details Available for past 10days",
+          "Speed": "No data",
+          "Distance": "No data",
+          "Battery_Status": "No data",
+          "Vehicle_Status": "No data"
+      },
+      {
+          "Vehicle_No.": "KA40G241",
+          "Driver_Name": "No Tracking Details Available for past 10days",
+          "Start_Time": "No data",
+          "Start_Loc": "No data",
+          "LastTrackedTime": "No Tracking Details Available for past 10days",
+          "LastKnownLocation": "No Tracking Details Available for past 10days",
+          "Speed": "No data",
+          "Distance": "No data",
+          "Battery_Status": "No data",
+          "Vehicle_Status": "No data"
+      },
+      {
+          "Vehicle_No.": "KA40G263",
+          "Driver_Name": "No Tracking Details Available for past 10days",
+          "Start_Time": "No data",
+          "Start_Loc": "No data",
+          "LastTrackedTime": "No Tracking Details Available for past 10days",
+          "LastKnownLocation": "No Tracking Details Available for past 10days",
+          "Speed": "No data",
+          "Distance": "No data",
+          "Battery_Status": "No data",
+          "Vehicle_Status": "No data"
+      }
+  ]
+}

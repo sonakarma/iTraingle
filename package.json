@@ -11,6 +11,9 @@
 		"react-native": "0.49.5",
 		"react-native-hide-show-password-input": "^1.0.6",
 		"react-native-md-textinput": "^2.0.4",
+		"react-native-pie-chart": "^1.0.12",
+		"react-native-svg": "^6.0.0",
+		"react-native-svg-charts": "^1.1.6",
 		"react-native-textinput-effects": "^0.4.1"
 	},
 	"devDependencies": {
